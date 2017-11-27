@@ -1,0 +1,579 @@
+I am the founder of Great Scott Gadgets, an open source hardware company
+that makes tools for the information security industry.  Before starting
+Great Scott Gadgets, my background was in information security and, in
+particular, wireless communication security research.  I'm a hacker.
+
+I am also the designer of HackRF One, an open source hardware platform
+for Software Defined Radio.  Basically it is a test instrument that can
+transmit or receive arbitrary radio signals.  I started the HackRF
+project because I wanted a better tool for wireless communication
+security research and education.  The thing that I've enjoyed the most
+about the HackRF project, however, has been seeing people use HackRF One
+for diverse applications that I never imagined.  It turns out that
+low-cost, uncalibrated RF test equipment is useful for a lot of
+different things.  I've seen HackRF One used in physics research.  I've
+seen it used in biological research.  I've seen it used to cheat at
+video games by spoofing GPS signals.  Of course, I've also seen it used
+for things like hijacking simultaneous translation systems in
+conferences like this one.
+
+Raise your hand if you are an inventor.  Maybe you've created some
+software or some hardware.  Maybe you've invented something in your head
+but haven't actually produced it yet.  It could be mechanical or
+electronic or visual or even virtual; it doesn't matter.  It could be
+large or small.  It's just something that didn't exist before or that is
+in some way better than things that existed before it.
+
+How many of you didn't raise your hand at first because you didn't think
+your creation qualified as an invention or because you don't fit your
+own preconceived image of an inventor?
+
+When I was a child people often asked me what I wanted to be when I grew
+up.  I usually answered an electrical engineer or an inventor.  Somehow
+it has turned out that I am now both those things, more or less, though
+I took a circuitous path to get here.  I didn't study engineering or
+anything technical in school.  I didn't pursue a career in the creation
+of technology.  I didn't learn how to design electronics until I wanted
+to build tools in order to accomplish other things.
+
+When I was young I had a distinct image in my head of what an inventor
+was.  Recently I've tried to recall how this image may have been formed.
+What role models created this impression? Edison? Frankenstein? Dr.
+Bunsen Honeydew?
+
+In school I learned that Edison invented the light bulb, Bell invented
+the telephone, Ford invented the automobile, Marconi invented the radio,
+and the Wright Brothers invented the airplane.  I've since learned that
+none of these things is true, exactly.  A century from now, I honestly
+expect that schoolchildren will be taught that Gates or Jobs invented
+the computer.
+
+For a wonderful case study, I recommend Bruce Boyes's presentation at
+the 2015 Open Hardware Summit titled "What the Wright Brothers Can Teach
+us About Open Source vs. Closed Source".  Bruce presented compelling
+evidence that challenged what I learned in school about the invention of
+powered flight, even showing how Orville and Wilbur Wright, through a
+series of questionable legal actions, actually harmed the progress of
+aviation more than they helped it.
+
+Bruce argued convincingly that the Wright brothers set back the aviation
+industry in the United States 20 years behind other countries.  The
+Wright brothers had a patent which they interpreted very broadly,
+claiming that it covered all manned, powered flight when, in fact, the
+text of the patent was more specific.  They were relentless in their
+pursuit of outrageously high licensing fees from fellow aviation
+pioneers.  At the start of the Great War, the United States had only a
+few airplanes while European countries had thousands.
+
+There were many inventors of flight around the world, all of them
+learning from each other and making incremental advances.  The Wikipedia
+article on the history of flight mentions many of these but repeatedly
+cites the Smithsonian Institution's assertion that the Wright brothers
+were first in flight.  What the Wikipedia article does not mention is
+that after Orville Wright's death, the executors of his estate sold the
+original Wright Flyer to the Smithsonian for one dollar under a contract
+that stipulated that the Smithsonian would never make any statement or
+public display suggesting the capability of manned, powered flight
+before the Wright brothers' successful flight in 1903.
+
+I learned in school in the United States that Eli Whitney invented the
+cotton gin, an achievement credited in large part for setting the stage
+for the industrial revolution.  (Overlooked was the fact that the device
+more directly resulted in a large increase in slavery in the US).  I
+also learned that someone else invented the cotton gin independently and
+that Whitney's patent was later disputed.  This was described to me as a
+shocking coincidence.  Surely the probability of such simultaneous
+invention is minuscule because it violates our mythology of invention.
+In our mythology, the inventor is a man, which is stupid.  The inventor
+works alone, which is stupid.  Sometimes the inventor has one assistant,
+but the assistant is not acknowledged as a contributor, which is stupid.
+The inventor spends a tremendous amount of time in his laboratory or
+workshop, which is the one part of the mythology that is probably
+correct, yet it disagrees with the greatest myth of all, that the
+invention is the result of a single, transcendent moment of inspiration:
+EUREKA!
+
+The eureka moment is the core of the mythology of invention.
+Breakthroughs arrive, supposedly, not by climbing one step at a time but
+by leaping to a great height all at once.  The capacity to achieve such
+acts of genius is what separates inventors from us mortals.  It is why,
+I think, most of us hesitate to call ourselves inventors.  We don't want
+to be seen as arrogant, self-proclaimed geniuses, or worse, as crackpot
+practitioners of pseudoscience or chasers of the next big consumer
+craze.  We don't want our creations compared the light bulb.  Neither do
+we want them compared to the "Jump to Conclusions" Mat.
+
+I don't know why the eureka myth is so powerful.  It seems to be
+something we want to believe despite all evidence.  It extends beyond
+inventors to all sorts of creative people.  Mozart, it is said, held in
+his head the entire Jupiter Symphony, his longest, in a single moment.
+
+"The Eureka Myth", by the way, is the title of a book by Jessica Silbey.
+As I developed the ideas for this talk, I started calling the whole
+mythology of invention "The Eureka Myth".  Eventually, I looked it up to
+see if anyone had used the phrase before.  It turned out to have been
+independently discovered more than once, most notably as the title of
+Silbey's book that presents evidence that challenges the mythology of
+invention.
+
+"Simultaneous invention" or "multiple discovery" is, in fact, the normal
+way that inventions happen, not the rare exception I thought as a child.
+If you take the time to investigate the origin of almost any
+technological breakthrough in history, you'll find that the mythology
+doesn't agree with reality.  Progress is made in small steps by many
+people, not in great leaps by a solitary genius.
+
+Eli Whitney was involved in patent disputes, with not only one person,
+but several.  Some were independent discoverers of similar technology;
+others made incremental improvements to Whitney's cotton gin - which
+was, itself, an increment improvement to existing technology.  If you
+were somehow able to go back in time and identify all the independent
+inventors of the cotton gin, you would probably end up with a long list
+of names, and it is possible that Eli Whitney would not be among them!
+It is moderately likely that he took the idea from a woman he knew or
+from a black slave he owned, but women and slaves weren't granted
+patents in those days.
+
+When I was young, I dreamed of one day holding my own patents.  I hoped
+that I could be one of those special people with the gift of inventive
+inspiration, that my "eurekas" would somehow make the world a better
+place.  I didn't realize at the time how absurd the patent system is.
+Patents confer a government granted monopoly to the single genius
+creator of a great new technology.  The system makes sense, however,
+only if you believe the mythology of invention.  The supposed benefits
+to society are that patents incentivize invention and that they result
+in the publication of ideas that would otherwise be kept secret.
+
+The publication benefit is easily refuted.  I have heard that it is
+common in the technological industries for commercial engineers to be
+advised not to read patents for fear of accusations of willful
+infringement.  I do not read patents; the benefit just doesn't outweigh
+the risk.  If the creators of new technology actively avoid reading the
+patents of other creators, then their publication can have only a
+negative impact, not a positive one, on the progress of technology.  If
+you choose not to read patents, you won't miss much.  In general,
+technology is pretty easy to reverse engineer.  We all took things apart
+when we were kids to see how they worked.  It is literally child's play.
+
+The other benefit of patents, that they incentivize invention, is easier
+to believe.  Our mythology tells us that invention is a rare occurrence,
+that inventors are special people without whom we would languish in a
+dark age.  The reality, of course, is that invention is a normal thing
+that humans do every day.  Ask yourself why you invent things, small or
+large.  If the people sitting near you raised their hands earlier, ask
+them later today what motivates their creativity.  I bet you'll hear
+things like,
+"I enjoy being creative",
+"I like finding better ways to do things",
+"I try to give back to those who create technology I use", or
+"It makes my job easier".
+
+I bet you won't hear people say, "I patent my inventions, and that's how
+I got rich".
+
+There are a lot of people these days talking about patent reform.  They
+usually point to software patents or business process patents, and they
+propose reducing the reach of the patent system in some way.  I do not
+support patent reform.  Patents are harmful to society in my opinion,
+and they should be abolished.
+
+The harm caused by patents is easy to see.  By restricting new
+technologies to just one producer, they slow the adoption of technology
+and make it harder for others to make incremental improvements.  The
+only justification for the patent system is that it produces more
+benefit than harm, but the benefits only appear to exist if you believe
+in the mythology of invention.
+
+Around the turn of the century I had an idea that might have been
+patentable.  I had recently moved to the mountains of Colorado.  Driving
+on a windy road one dark night in my mountain town, I nearly hit a deer
+that was standing in the middle of the road.  I didn't see it at first
+because it was standing just past a fairly tight turn, just to the left
+of my headlights until I had completed the turn.  Fortunately, I was
+able to stop quickly enough to avoid a collision, but the moment of
+fright got me thinking.  Why were my headlights pointed the direction my
+car was facing, not the direction my car was turning? Wouldn't it make
+more sense to have headlights that swivel from side to side as the
+steering wheel was turned?  I thought that my idea from that moment of
+inspiration was pretty good, and I thought that, instead of messing with
+my existing headlights, I could experiment with a third headlight
+mounted on the car.
+
+I never did retrofit my car with an experimental headlight, but a year
+or two later, I saw an advertisement from Lexus touting the exact same
+idea.  What if I had already applied for a patent for the idea? Or what
+if I had started a company to develop it, holding the idea as a trade
+secret? Would I have been justified in assuming that Lexus had stolen my
+idea? Would I have felt compelled to sue? As it happened, I don't think
+I ever told anyone about the idea, so I easily concluded that it was
+independently invented by someone else.
+
+My idea may have been good, but it was not unique.  Over the past few
+years, several automakers (BMW, Mercedes, Toyota, Volvo) have been sued
+by Adaptive Headlamp Technologies, Inc. for infringement of a 2007
+patent for headlights that swivel when the steering wheel is turned.
+Adaptive Headlamp Technologies, Inc., is a subsidiary of an
+"intellectual property licensing company", which is a euphemism for
+"patent troll".  When I heard about the lawsuits, I recalled that old
+Lexus advertisement and did a quick search for other prior art.  Guess
+what I found? A car called the Tucker 48 had a third headlight that
+swiveled as the steering wheel turned - in 1948!  Automakers today are
+actually spending money defending themselves from recent patent claims
+about technology invented more than half a century ago!
+
+My moment after almost hitting that deer was a eureka moment.  I think
+we've all had eureka moments in our lives, we just haven't had the big
+one yet.  We're like gambling addicts, convinced by our small wins that
+we'll someday have the big score, and I think that may be one of the
+reasons we want to believe the eureka myth.  But the big score, the big
+eureka, is a myth.  The eureka that is a big idea, not a small one, is
+something that doesn't happen in real life.  It's a story we concoct
+when we tell the tales of past inventions.  Small eurekas do happen in
+real life, and they occur to many different people at roughly the same
+time.  Eurekas can be wonderful experiences and can lead to great
+things, but don't be fooled into thinking that a eureka is unique.
+Society will not be deprived of an invention just because one person
+didn't follow up on a moment of inspiration.  The better the idea is,
+the more likely it is that someone else will have - or already has had -
+the same idea.
+
+When I tell people that I support abolishing patents, I get some strange
+looks.  Evidently, this is considered a radical notion, but it seems
+pretty obvious to me.  Even if I can convince someone that, ideally, we
+would be better off without patents, my listener typically suggests that
+an abrupt transition would be too difficult, that there would be
+unintended consequences.  It's the same argument that many people make
+when opposing marijuana legalization.  I live in Colorado, one of the
+states leading the way toward marijuana legalization in the United
+States.  Let me tell you about unintended consequences:
+ - Tourism is up
+ - Tax revenue is up
+ - Teen marijuana use is down, and it is below the national average.
+
+Admittedly, there have also been some negative consequences.  I've heard
+that we're having a problem with unemployment among prison guards.
+Sometimes what seems to be a negative consequence to an individual is a
+great benefit to society as a whole.  I haven't been able to confirm the
+prison guard unemployment rumor, but what I have found out is that
+prison guards are among the major opponents of marijuana legalization.
+Do you know who else opposes legalization? Pharmaceutical companies.
+Apparently they are more concerned about the sales of their patented
+drugs than they are about sick people feeling better.
+
+When the Nobel Prize is handed out, it is increasingly given to more
+than one person.  I've heard some folks say that this is due to the fact
+that science has progressed to the point at which no single person is
+able to make major achievements. "There just isn't any low-hanging fruit
+out there anymore." In certain areas of research it is true that groups
+are required, but in general I think it is nonsense that individuals are
+less able to contribute to science than they were in the past.  History
+is jam-packed with people claiming that all the discoveries have already
+been made.  They're always wrong.
+
+Sometimes multiple Nobels are given to independent discoverers of the
+same thing.  It isn't uncommon at all, and it may be that modern
+communication technology makes it more apparent when multiple discovery
+occurs.
+
+Sometimes Nobels are given to a team of collaborators.  If scientists
+are collaborating more than they once did, I think that's great, but it
+is probably a sign that modern technology has made collaboration easier,
+not that collaboration is more necessary than it was in the past.
+
+Another possible reason for the increase in multiple Nobel winners is
+that collaborators may be more likely to be acknowledged today than they
+were in the past.  Have you heard of Rosalind Franklin? Perhaps not, but
+you probably have heard of Watson and Crick, who won the Nobel Prize for
+their work on DNA that was based on her data.
+
+I have mixed feelings about the Nobel Prize.  I think it is great to
+honor those who advance science, but the Prize seems to perpetuate the
+mythology of invention, especially by having a policy that a prize
+cannot be given to more than three people.  It is a disservice to
+humanity to insist that the most important scientific contributions
+cannot come from groups of four or more people.
+
+The folks who somehow produce idea after idea are my favorite people,
+not for the value of any one idea but for their spirit of inventiveness.
+Most of them will never even be considered for a Nobel Prize.  There may
+be Nobel winners or future Nobel winners in this room.  Would you like
+to be one of them?  There is one way to make absolutely certain that you
+will not, and that is to refrain from publishing any of your ideas.
+Hold your best idea in your head.  Keep it secret.  Don't let anyone
+know about the precious gem you've stored in there.  Except it's not
+precious.  Your idea has no value until you do something with it or tell
+someone about it.
+
+Part of the Eureka Myth is that you only need the right idea to make a
+million dollars.  It could even be something simple like the pet rock or
+the bread climp.  The truth is that implementation matters.  No investor
+in the world is going to fund your startup based on an idea alone.  How
+are you developing your idea? Who are your customers? How have you
+proven that you are capable of delivering something your customers want?
+What makes you more likely to succeed than your competition? An idea is
+a seed, but seeds are all over the place.  Successful businesses are
+seeds that have been planted in fertile soil and have found the right
+amount of water and sun over a long period of time.  It takes work to
+turn an idea into a product, and it takes even more work to deliver that
+product to satisfied customers.  Thomas Edison famously said that genius
+is "1% inspiration and 99% perspiration".  I've recently heard Edison
+called the Elon Musk of his day, but somehow, despite that quotation, my
+childhood image of Edison was more Doc Brown than Elon Musk.
+
+Jessica Silbey, author of The Eureka Myth, wrote that:
+
+"When they describe how and why their company succeeds, it is not
+largely or solely because of intellectual property.  It is because of
+loyalty, relationships, reputation, a copacetic workplace, the
+excellence of their products and services, first mover advantage,
+private agreements, an attentive and understandable market, and a
+constantly evolving offering of complementary products and services
+built around identifiable marketplace needs or desires."
+
+My company makes open source hardware tools for the information security
+industry.  Something I did not anticipate when I started my business is
+how difficult it would be to explain to people what I do.  The elevator
+pitch for Great Scott Gadgets requires an unusually slow elevator.
+First, I have to convince people that hacking is a worthwhile endeavor.
+Then, I have to explain open source hardware.  It turns out that this is
+the significantly higher hurdle.  When I started making hardware, it
+seemed perfectly natural to me that my hardware should be open source.
+I spent many years in IT starting long before it was called IT, and,
+without exception, every single thing I did in my career that I was
+proud of was something that I accomplished with the help of open source
+software.  I wanted to give back to the community that had given me so
+much.  For me, making everything I produce open source, software or
+hardware or whatever, isn't an option; it is simply the right thing to
+do.
+
+Elevator people often ask if I have patents.  I ask them if they'd like
+to join me on a longer elevator.  Usually, though, I avoid the subject
+of patent abolition and of the ethics of open source.  Instead I tell
+them how ineffective patents are, especially for small companies.  Every
+successful product gets cloned these days, patented or not, open source
+or not.  By making my products open source, I disseminate my inventions
+as widely as I can.  I give my ideas the greatest possible chance of
+having a positive effect on the world, and everyone who hears about me
+and one of my ideas is a potential customer even if they were exposed to
+my creation through a clone.  Sure, you can buy a HarkRF or any number
+of other HackRF clones from China, but if you hear about HackRF and
+search for it online, you'll find my company as the first search result.
+
+The marketing angle has the elevator people half convinced by the end of
+the ride.  I think the reason they are only half convinced is that they
+can't let go of that old myth.  They think that great ideas have great
+value and that by giving away my ideas I'm losing value.
+
+When I'm away from home I enjoy traveling with a toy guitar to entertain
+myself.  Let's say you were to sit down with me to try my guitar.  You
+like it, so you steal it from me.  I would be sad because I wouldn't
+have my guitar anymore.  I would be deprived of my ability to play it.
+But let's say that you sit down with me to try my guitar and do not
+steal it.  Instead you leave having learned a song that I wrote.  I
+would still have the guitar, and I would still have the song.  I would
+be deprived of nothing.
+
+I reject the notion that scarcity increases the value of ideas.  The
+opposite is in fact true; ideas have value in proportion to how much
+they are shared.  If I ever decide to stop selling open source hardware
+and instead pursue a career in music, the popularity of my songs would
+be directly related to my ability to sell tickets to performances.
+
+This is exactly what the elevator people don't understand: Ideas have
+value in proportion to how much they are shared.
+
+Your ideas are worthless until you share them with the world.
+
+This notion is hardly anything new.  Don Lancaster wrote in his Hardware
+Hacker column in 1988:
+
+"I would like to be able to report to you that ideas are still worth a
+dime a bale in ten bale lots.  It is only when an idea is both converted
+into a form that people can use and in fact are actually and
+aggressively using it, that the idea gains any value."
+
+In the following issue, he wrote:
+
+"I am sorry if I did offend one or two patent attorneys and one or two
+others who do seem to be personally profiting from this very sorry state
+of affairs.  I also extend my apologies to their BMW dealers."
+
+In the debate between soft science and hard science, the experimental
+physicists I spoke with seem have the advantage.  Hackers do science
+too, but it is a mixture of both hard and soft.  We study computing
+systems, creations not of nature but of humans.  Much of what interests
+us is how humans use computers and how there are strengths and
+weaknesses in whole systems that include both technological and human
+elements.
+
+A growing segment of the information security community, however,
+studies harder aspects of computing technology.  For example, in recent
+years there have been great advances in formal verification of computer
+programs.  It is now possible to mathematically prove the correctness of
+many programs.
+
+Researchers in the LANGSEC movement are taking a language theoretic
+approach to computer security.  They look at information systems and see
+interfaces between various components.  An interface could, for example,
+be a user interface that accepts input directly from a human, or it
+could be a network interface that accepts input from another computer,
+or it could be an application programming interface that accepts input
+from some other code running on the same computer, even if linked into
+the process that is handling the input.  Anywhere input is processed,
+LANGSEC researchers point out that the input can be thought of as a
+language and that the language's complexity can be classified according
+to a hierarchy that has existed for decades in the field of linguistics.
+
+More complex languages require more complex input processing, and it has
+been shown that only the simplest languages can be processed with
+computer programs that can be proven to terminate on all possible
+inputs.  The halting problem, known since the early years of computer
+science, tells us that more complex languages require input processing
+that may never end.  If you can't prove that your program terminates on
+all possible inputs, you can't possibly prove that it correctly
+processes all possible inputs.  The security of every computing system
+therefore depends on simplicity of input languages.
+
+The astonishing result of this work is that, by simply combining decades
+old linguistics research with decades old computer science research, we
+can see that most modern information systems have no hope of ever
+providing any security guarantees.  If you want security guarantees you
+must, at a minimum, specify input languages throughout your system that
+do not exceed a certain complexity.
+
+It may seem strange that the application of linguistics, the study of
+natural languages of humans, to computer science, the study of machines
+created by humans, yields a hard result regarding the provable
+correctness of computer programs.  I am frequently astonished by this
+myself, but it is a result that I cannot refute, so I encourage everyone
+who creates information systems to pay attention and to define protocols
+and interfaces with a grammatical simplicity that will allow for future
+security guarantees.
+
+The information security community includes both hackers and academic
+researchers.  The reason I mention the LANGSEC movement is that it is to
+me the most exciting research happening in the field and because it was
+started by a small number of people at the intersection of those two
+groups, hackers and academics.  I don't believe that this was an
+accident.  I believe that there are some things that hackers do well and
+that there are other things academics do well.  We have much to learn
+from one another.
+
+Hackers are good at finding one provable aspect of a system with many
+unprovable characteristics.  When presented with a security claim,
+hackers like to show how the claim is false.  "You say your software is
+unbreakable?  Well, here is one way it is already broken."
+
+There is a saying in the hacker community: "You can't argue with a root
+shell."  This means that when someone points out how your system is
+broken, it is an irrefutable proof.  Sergey Bratus, one of the key
+members of the LANGSEC community, has pointed out that an exploit is
+proof by construction of the vulnerability of a system.
+
+Hackers are terrible at writing things down.  We enjoy sharing
+information, but we often share our most important results in
+presentations at conferences without any written paper.  When we do
+write things down, it is often in a blog post or in informal
+publications like Phrack or PoC||GTFO.  These are wonderful
+publications, but they lack the rigorous peer review of academic
+journals.  I am often bewildered by the fact that much of the most
+important knowledge of the hacker community is perpetuated in an oral
+tradition.
+
+Hackers are not always good at citing past research.  In the information
+security community, hackers often cite other hackers, and academics cite
+other academics, but neither group is very good at citing research from
+the other group.
+
+Hackers are good at open source, and this is perhaps the most important
+thing that academics can learn from hackers in my opinion.  Hackers
+created the infrastructure of the Internet out of open source software
+and open documentation, and they have called the Internet home for as
+long as the Internet has existed.
+
+Open source software and now hardware is a tremendously important part
+of hacker culture.  When we share, we share deliberately, and we do
+everything in our power to ensure that others can take advantage of the
+work that we share.  One thing we do not do is publish findings behind
+paywalls.
+
+When I was invited to speak at the physics conference, one of the first
+things I did was to look for papers from the previous conference in
+2015.  Even though I did not find the full text in any central
+repository, I was pleased to be able to find every paper I looked for,
+complete with a creative commons attribution license, available on the
+Web.  I was delighted to find this because somehow in 2017 this is still
+not the norm.
+
+Sadly there are still many notable journals that do not provide open
+access to scientific research.  In my opinion there is no excuse for
+this in the 21st century.  The most important thing you can do to
+advance science is to disseminate your findings as widely as you can.
+In this century that means you must make your work freely available
+online.  If you are publishing research in 2017 behind a paywall, I'm
+not sure what you are doing, but you are not doing science.
+
+Another important and often overlooked aspect of science is the
+repeatability of experiments.  If you publish your results but hide your
+data, if you don't share software that is central to your research, if
+you don't describe your equipment in sufficient detail for someone to
+reproduce your experimental apparatus, you aren't doing science.
+
+These words may sound harsh, but I hope you will give them thought.  We
+live in a world today in which the value of science is disputed.  There
+are political voices growing louder every day telling people that
+science is a system of beliefs, not a mechanism for finding truth.  Even
+well-educated people who think they have an appreciation for science are
+not immune to pseudoscience crazes.  Just look at labels in any grocery
+store in the United States to see what I'm talking about.
+
+There is one great thing that you can do demonstrate the value of
+science and that is to do the best science you can.  Share your results
+as widely as you can.  Share all the information necessary to reproduce
+your results.  Convince your audience how you've avoided fooling
+yourself into believing a false conclusion.  Share all your evidence.
+If you don't, you will plant seeds of doubt that undermine confidence in
+science itself.
+
+Some of you may think this advice doesn't apply to you because you don't
+think of what you do as science, but hackers do science all the time.
+Every time you find a new type of bug or a new technique, every time you
+learn something that other people haven't figured out yet, every time
+you share this knowledge with your peers, you are doing science.  In
+fact, if you share as effectively as you can, you may be doing a better
+job of science than many of the people who call themselves scientists.
+
+I recently reread Cargo Cult Science, the famous 1974 lecture by Richard
+Feynman.  In this wonderful lecture, Feynman explored the difference
+between science and pseudoscience and pointed out that a lot of people
+who think they are doing science actually aren't.  He encouraged
+scientists to do a better job of sharing their research and making their
+experiments more repeatable, making the excellent point that honest and
+thorough publication is essential to scientific integrity.
+
+Lack of this kind of integrity is nothing new.  Feynman discussed bad
+science done throughout the 20th century.  In the 21st century, however,
+we have an opportunity to establish better standards for science.  It is
+an opportunity created by the Internet, a tool which has enabled better
+sharing of information.
+
+This opportunity is also created by open source culture that has shown
+the value of licensing, not just publishing information.  Our new
+standards for science should combine the best of hacker culture with the
+best of traditional science.
+
+Every contribution you make, every paper you write, every line of code
+you publish, every hardware design you place under an open source
+license serves to advance science.  If there is one thing that should be
+apparent to everyone here at this conference it is that you are a part
+of something greater than yourself.  The achievements of this community
+are made by the combined efforts of many people.
+
+The progress of science and technology is made in small steps, not giant
+leaps, so remember that your contributions, no matter how small, are
+important.  Remember that they will have the greatest impact if you
+describe them thoroughly and honestly and if you do your best to
+disseminate the information as widely as possible.
+
+Your ideas are worthless until you share them with the world, so share
+them in every way you can.
