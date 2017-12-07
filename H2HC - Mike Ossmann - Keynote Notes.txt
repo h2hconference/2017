@@ -586,3 +586,6 @@ disseminate the information as widely as possible.
 
 Your ideas are worthless until you share them with the world, so share
 them in every way you can.
+
+Copyright 2017 Michael Ossmann
+License: CC BY 4.0
