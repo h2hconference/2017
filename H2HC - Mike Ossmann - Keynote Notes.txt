@@ -17,6 +17,15 @@ video games by spoofing GPS signals.  Of course, I've also seen it used
 for things like hijacking simultaneous translation systems in
 conferences like this one.
 
+I frequently speak at security conferences around the world, and I
+recently had the opportunity to speak at an experimental physics
+conference.  It was very interesting getting to know those scientists
+and their work and to see how excited they all were to share their work
+with each other.  The opportunity to address that audience got me
+thinking about similarities and differences between the scientific
+community and the hacker community and the ways that we share ideas.  I
+wrote this talk for both audiences.
+
 Raise your hand if you are an inventor.  Maybe you've created some
 software or some hardware.  Maybe you've invented something in your head
 but haven't actually produced it yet.  It could be mechanical or
